@@ -1,40 +1,27 @@
+# VSCode files
+.vscode/
+*.code-workspace
+
+# Node.js dependency directory
+node_modules/
+
+# Build output
+dist/
+
 # Logs
-logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-# Dependency directories
-node_modules
-dist
-dist-ssr
-
-# Local files
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# OS generated files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
 
-# Image files
-*.jpg
-*.jpeg
-*.png
-*.gif
+# Package manager files
+package-lock.json
+yarn.lock
+
+# VSCode extension files
 *.svg
-
-# Other potential large files
-*.psd
-*.ai
-*.zip
-*.rar
+*.png
+*.woff
+ThirdPartyNotices.txt
+README.md
